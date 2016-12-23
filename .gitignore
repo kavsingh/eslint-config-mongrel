@@ -1,0 +1,10 @@
+.DS_Store
+npm-debug.log
+npm-debug.log.*
+.nvmrc
+.nyc_output
+.vscode
+.idea
+*.sublime-*
+node_modules/
+coverage/
