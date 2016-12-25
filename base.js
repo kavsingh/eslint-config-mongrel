@@ -3,7 +3,7 @@ module.exports = {
   extends: ['airbnb'],
   rules: {
     'array-bracket-spacing': ['error', 'always'],
-    'arrow-parens': 'as-needed',
+    'arrow-parens': ['error', 'as-needed'],
     'complexity': ['warn', 6],
     'generator-star-spacing': ['error', { before: true, after: true }],
     'max-len': ['warn', {
