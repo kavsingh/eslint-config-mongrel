@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-mongrel",
   "version": "0.0.1",
-  "description": "Linting for my own projects. Based on the good work of AirBnB, but I have come to dislike semis, among other things. So welcome to my mongrel linter.",
+  "description": "Linting for my own projects. Based on the good work of AirBnB.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
