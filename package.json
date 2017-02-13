@@ -4,7 +4,7 @@
   "description": "Linting for my own projects. Based on the good work of AirBnB.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tape test/*.js",
     "lint": "eslint ."
   },
   "keywords": [],
@@ -13,15 +13,17 @@
   "peerDependencies": {
     "babel-eslint": "7.x",
     "eslint": "3.x",
-    "eslint-config-airbnb": "13.x",
+    "eslint-config-airbnb": "14.x",
     "eslint-import-resolver-webpack": "0.x",
     "eslint-plugin-babel": "4.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "2.x",
+    "eslint-plugin-jsx-a11y": "4.x",
     "eslint-plugin-lodash-fp": "2.x",
     "eslint-plugin-react": "6.x"
   },
   "devDependencies": {
-    "eslint": "^3.12.2"
+    "common-tags": "^1.4.0",
+    "eslint": "^3.15.0",
+    "tape": "^4.6.3"
   }
 }
