@@ -6,4 +6,4 @@ module.exports = {
     './rules/react',
     './rules/lodashFp',
   ].map(require.resolve),
-};
+}

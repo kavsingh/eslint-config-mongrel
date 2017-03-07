@@ -1,9 +1,7 @@
 module.exports = {
-  plugins: ['lodash-fp'],
-  extends: [
-    'plugin:lodash-fp/recommended',
-  ],
+  plugins: [ 'lodash-fp' ],
+  extends: [ 'plugin:lodash-fp/recommended' ],
   rules: {
-    'lodash-fp/consistent-compose': ['error', 'pipe'],
+    'lodash-fp/consistent-compose': [ 'error', 'pipe' ],
   },
-};
+}

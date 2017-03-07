@@ -1,6 +1,6 @@
 module.exports = {
-  plugins: ['react'],
+  plugins: [ 'react' ],
   rules: {
     'react/jsx-filename-extension': 'off',
   },
-};
+}
