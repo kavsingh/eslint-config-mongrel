@@ -14,7 +14,7 @@ const square = x => x ** 2
 test('load config and test some basics', t => {
   const output = (new CLIEngine({
     useEslintrc: false,
-    configFile: 'index.js'
+    configFile: 'index.js',
   })).executeOnText(testCode)
 
   t.equal(output.errorCount, 0)
