@@ -1,10 +1,11 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: [ 'airbnb' ],
+  extends: [ 'airbnb-base' ],
   rules: {
+    complexity: [ 'warn', 6 ],
+    semi: [ 'error', 'never' ],
     'array-bracket-spacing': [ 'error', 'always' ],
     'arrow-parens': [ 'error', 'as-needed' ],
-    'complexity': [ 'warn', 6 ],
     'generator-star-spacing': [ 'error', { before: true, after: true } ],
     'max-len': [ 'warn', {
       code: 80,
@@ -19,6 +20,5 @@ module.exports = {
         '=': 'after',
       },
     } ],
-    'semi': [ 'error', 'never' ],
   },
 }

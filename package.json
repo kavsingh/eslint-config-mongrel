@@ -13,25 +13,21 @@
   "peerDependencies": {
     "babel-eslint": "7.x",
     "eslint": "3.x",
-    "eslint-config-airbnb": "14.x",
+    "eslint-config-airbnb-base": "11.x",
     "eslint-import-resolver-webpack": "0.x",
     "eslint-plugin-babel": "4.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "4.x",
-    "eslint-plugin-lodash-fp": "2.x",
-    "eslint-plugin-react": "6.x"
+    "eslint-plugin-lodash-fp": "2.x"
   },
   "devDependencies": {
     "babel-eslint": "7.x",
     "common-tags": "^1.4.0",
-    "eslint": "^3.17.1",
-    "eslint-config-airbnb": "14.x",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "11.x",
     "eslint-import-resolver-webpack": "0.x",
     "eslint-plugin-babel": "4.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "4.x",
     "eslint-plugin-lodash-fp": "2.x",
-    "eslint-plugin-react": "6.x",
     "tape": "^4.6.3"
   }
 }

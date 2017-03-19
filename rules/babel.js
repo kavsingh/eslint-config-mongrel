@@ -8,6 +8,6 @@ module.exports = {
     'babel/object-curly-spacing': [ 'error', 'always' ],
 
     'no-invalid-this': 'off',
-    'babel/no-invalid-this': 'error'
+    'babel/no-invalid-this': 'error',
   },
 }
