@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mongrel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Linting for my own projects. Based on the good work of AirBnB.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "devDependencies": {
     "babel-eslint": "7.x",
     "common-tags": "^1.4.0",
-    "eslint": "^3.18.0",
+    "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "11.x",
     "eslint-import-resolver-webpack": "0.x",
     "eslint-plugin-babel": "4.x",
