@@ -1,6 +1,6 @@
 .DS_Store
-npm-debug.log
-npm-debug.log.*
+*.log
+*.log.*
 .nvmrc
 .nyc_output
 .vscode

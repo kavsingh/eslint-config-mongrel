@@ -1,6 +1,8 @@
 module.exports = {
   parser: 'babel-eslint',
+
   extends: ['airbnb-base'],
+
   rules: {
     complexity: ['warn', 10],
     semi: ['error', 'never'],
