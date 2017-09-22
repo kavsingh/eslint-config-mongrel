@@ -17,6 +17,14 @@ test('load config and test some basics', t => {
     configFile: 'index.js',
   })).executeOnText(testCode)
 
-  t.equal(output.errorCount, 0)
+  const { errorCount, results = [] } = output
+
+  if (errorCount) {
+    // eslint-disable-next-line
+    console.log(
+      results.reduce((accum, { messages = [] }) => accum.concat(messages), []))
+  }
+
+  t.equal(errorCount, 0)
   t.end()
 })
