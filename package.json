@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mongrel",
-  "version": "3.3.1",
+  "version": "3.4.1",
   "description": "Linting for my own projects. Based on the good work of AirBnB.",
   "main": "index.js",
   "scripts": {
@@ -11,16 +11,16 @@
   "author": "Kav Singh",
   "license": "ISC",
   "peerDependencies": {
-    "babel-eslint": "^8.1.1",
-    "eslint": "^4.14.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-babel": "^4.1.2"
   },
   "devDependencies": {
-    "babel-eslint": "^8.1.1",
-    "common-tags": "^1.6.0",
-    "eslint": "^4.14.0",
+    "babel-eslint": "^8.2.1",
+    "common-tags": "^1.7.2",
+    "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.8.0",
