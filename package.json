@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mongrel",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "description": "Linting for my own projects. Based on the good work of AirBnB.",
   "main": "index.js",
   "scripts": {
