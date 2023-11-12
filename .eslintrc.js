@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./index.js'],
+  extends: [require.resolve('./index.js')],
 
   env: {
     es6: true,
